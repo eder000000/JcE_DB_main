@@ -1,0 +1,37 @@
+INSERT INTO public.state_code (state_code, state_name, id_country_code)VALUES
+('AGU', 'Aguascalientes',1),
+('BCN', 'Baja California', 1),
+('BCS', 'Baja California Sur',1),
+('CAM', 'Campeche', 1),
+('CHP', 'Chiapas', 1),
+('CHH', 'Chihuahua', 1),
+('CMX', 'Ciudad de México', 1),
+('COA', 'Coahuila', 1),
+('COL', 'Colima', 1),
+('DUR', 'Durango', 1),
+('GUA', 'Guanajuato', 1),
+('GRO', 'Guerrero', 1),
+('HID', 'Hidalgo', 1),
+('JAL', 'Jalisco', 1),
+('MEX', 'Estado de México', 1),
+('MIC', 'Michoacán', 1),
+('MOR', 'Morelos', 1),
+('NAY', 'Nayarit', 1),
+('NLE', 'Nuevo León', 1),
+('OAX', 'Oaxaca', 1),
+('PUE', 'Puebla', 1),
+('QUE', 'Querétaro', 1),
+('ROO', 'Quintana Roo', 1),
+('SLP', 'San Luis Potosí', 1),
+('SIN', 'Sinaloa', 1),
+('SON', 'Sonora', 1),
+('TAB', 'Tabasco', 1),
+('TAM', 'Tamaulipas', 1),
+('TLA', 'Tlaxcala', 1),
+('VER', 'Veracruz', 1),
+('YUC', 'Yucatán', 1),
+('ZAC', 'Zacatecas', 1);
+
+COMMIT;
+
+SELECT * FROM public.state_code;
