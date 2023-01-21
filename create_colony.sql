@@ -1,8 +1,8 @@
 CREATE TABLE public.colony(
-    id_colony_code SERIAL,
-	colony_name VARCHAR(100),
-    id_municipality SMALLINT,
-    id_zip_code INT
+    id_colony_code INT GENERATED ALWAYS AS IDENTITY,
+	colony_name VARCHAR(100) INT NOT NULL,
+    id_municipality INT NOT NULL,
+    id_zip_code INT NOT NULL
 );
 
 COMMIT;

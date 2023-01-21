@@ -13,4 +13,5 @@ ALTER TABLE public.municipality
 ALTER TABLE public.colony
 	ADD CONSTRAINT fk_municipality_in_colony
 	FOREIGN KEY(id_municipality)
-	REFERENCES public.municipality(id_municipality
+	REFERENCES public.municipality(id_municipality)
+	ON UPDATE CASCADE ON DELETE RESTRICT;
