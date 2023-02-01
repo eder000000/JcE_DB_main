@@ -24,3 +24,9 @@ ALTER TABLE  public.status
 	
 ALTER TABLE  public.user_role
 	ADD CONSTRAINT pk_role PRIMARY KEY (user_role_id);
+
+ALTER TABLE  public.user_address
+ADD CONSTRAINT pk_address PRIMARY KEY (id_user_address);
+
+ALTER TABLE  public.working_area
+ADD CONSTRAINT pk_working_area PRIMARY KEY (working_area-id);

@@ -9,6 +9,5 @@ CREATE TABLE public.public_user_model(
     user_model_org INT NOT NULL,
     user_model_description VARCHAR(100) NOT NULL
 );
--- add MxN tables for professions and working areas
 
 COMMIT;

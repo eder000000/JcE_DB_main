@@ -9,3 +9,6 @@ ALTER TABLE public.municipality
 
 ALTER TABLE public.state_code
 	ADD CONSTRAINT pk_state_code PRIMARY KEY (id_state_code);
+
+	ALTER TABLE public.zip_code
+	ADD CONSTRAINT pk_zip_code PRIMARY KEY (id_zip_code);
